@@ -1,0 +1,9 @@
+.layout {
+  width: 100%;
+}
+.movies-container {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  justify-items: center;
+}
